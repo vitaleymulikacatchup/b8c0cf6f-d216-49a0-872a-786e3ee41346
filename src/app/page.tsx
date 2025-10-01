@@ -7,6 +7,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import WalletFooter from '@/components/sections/layouts/footer/WalletFooter';
+import { Globe } from '@/components/bento/contents/Globe';
 
 const theme: SiteTheme = {
   styleVariant: "funAndTrendy",
@@ -60,9 +61,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Our token distribution ensures a fair launch."
           kpiItems={[
-            { value: "50M", description: "Total Supply", longDescription: "Total coins available for purchase.", icon: "Coin" },
-            { value: "25%", description: "Liquidity", longDescription: "25% locked for liquidity purpose.", icon: "Lock" },
-            { value: "10M", description: "Rewards", longDescription: "10 million for community rewards.", icon: "Star" }
+            { value: "50M", description: "Total Supply", longDescription: "Total coins available for purchase.", icon: Globe },
+            { value: "25%", description: "Liquidity", longDescription: "25% locked for liquidity purpose.", icon: Globe },
+            { value: "10M", description: "Rewards", longDescription: "10 million for community rewards.", icon: Globe }
           ]}
         />
       </div>
